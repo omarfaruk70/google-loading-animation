@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.class1{
+    height: 30px;
+    width: 500px;
+    background-color: ;
+    margin: 100px 500px;
+    color: rgb(224, 42, 10);
+    font-size: large;
+}
+.wrapper{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 600px;
+}
+
+.ball{
+    height: 30px;
+    width:  30px;
+    border-radius: 15px;
+    margin: 0px 20px;
+    animation: Google_animation 2s ease infinite;
+}
+ 
+.blue{
+    background-color: blue;
+   
+    
+}
+.red{
+    background-color: red;
+    animation-delay: .25s;
+}
+.yellow{
+    background-color: yellow;
+    animation-delay: .5s;
+}
+.green{
+    background-color: green;
+    animation-delay: .75s;
+}
+
+@keyframes Google_animation {
+    
+    50%{
+      transform: translateY(50px);
+    }
+
+    100%{
+
+    }
+
+}
